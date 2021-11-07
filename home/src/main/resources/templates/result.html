@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http:thymeleaf.org">
+<head>
+<meta charset="utf-8">
+<title th:text="${titulo}"></title>
+</head>
+<body>
+	<div class="container datos">
+		<label for="nombres" th:text="${usuario.nombres}"></label><br> 
+		<label for="apellidos" th:text="${usuario.apellidos}"></label><br> 
+		<label for="telefono" th:text="${usuario.telefono}"></label><br> 
+		<label for="username" th:text="${usuario.username}"></label><br> 
+		<label for="email" th:text="${usuario.email}"></label><br> 
+		<label for="password" th:text="${usuario.password}"></label>
+	</div>
+</body>
+</html>
